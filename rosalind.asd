@@ -12,4 +12,5 @@
                "serapeum"
                "trivia"
                "uiop")
-  :components ((:file "dna")))
+  :components ((:file "dna")
+	       (:file "rna"))
