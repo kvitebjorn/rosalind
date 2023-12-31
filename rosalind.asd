@@ -14,5 +14,6 @@
                "uiop")
   :components ((:file "dna")
 	       (:file "rna")
-	       (:file "revc")))
+	       (:file "revc")
+	       (:file "fib")))
 
