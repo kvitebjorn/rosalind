@@ -13,4 +13,6 @@
                "trivia"
                "uiop")
   :components ((:file "dna")
-	       (:file "rna"))
+	       (:file "rna")
+	       (:file "revc")))
+
