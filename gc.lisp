@@ -2,7 +2,6 @@
 
 (defpackage :rosalind-gc
   (:import-from :ppcre #:all-matches-as-strings #:register-groups-bind)
-  (:import-from :trivia #:match)
   (:import-from :uiop #:read-file-string)
   (:use :cl)) 
 
