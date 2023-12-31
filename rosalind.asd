@@ -7,6 +7,7 @@
   :licence "Public Domain"
   :depends-on ("alexandria" 
                "bt-semaphore" 
+	       "cl-ppcre"
                "lparallel" 
                "magicl" 
                "serapeum"
@@ -15,5 +16,6 @@
   :components ((:file "dna")
 	       (:file "rna")
 	       (:file "revc")
-	       (:file "fib")))
+	       (:file "fib")
+	       (:file "gc")))
 
