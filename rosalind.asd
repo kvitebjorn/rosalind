@@ -8,6 +8,7 @@
   :depends-on ("alexandria" 
                "bt-semaphore" 
 	       "cl-ppcre"
+	       "listopia"
                "lparallel" 
                "magicl" 
                "serapeum"
@@ -17,5 +18,6 @@
 	       (:file "rna")
 	       (:file "revc")
 	       (:file "fib")
-	       (:file "gc")))
+	       (:file "gc")
+	       (:file "hamm")))
 
